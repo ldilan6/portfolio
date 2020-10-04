@@ -11,4 +11,33 @@
 // Import your custom SCSS
 @import "mashup-example";
 
+.about-me{
+ font-size: 16px
+}
 
+.game-pics{
+  font-size: 12px
+}
+
+#container{
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+#giphy,#message{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#message{
+  padding-top: 30%;
+  z-index: 10;
+}
+
+#myself{
+  height: 140%;
+  width: 140%;
+  padding-top: 18px;
+}
